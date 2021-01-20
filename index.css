@@ -1,0 +1,14 @@
+body{
+  background-image: url("images/b14.jpg");
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+}
+.stroke{
+ fill: rgb(199, 135, 255);
+}
+.stroke:hover{
+  fill: rgb(200, 255, 43)
+}
+#x{
+  position: 50%;
+}

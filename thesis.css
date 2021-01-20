@@ -1,0 +1,133 @@
+/* html{
+    width:600px;
+} */
+body{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgb(255, 214, 253)
+}
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: 'Nanum Myeongjo', serif; */
+    font-family: 'Miriam Libre', sans-serif;
+}
+nav::-webkit-scrollbar {
+  display: none;
+}
+maintextbox::-webkit-scrollbar {
+  display: none;
+}
+@font-face {
+  font-family: 'Miriam Libre', sans-serif;
+  font-family: 'Nanum Myeongjo', serif;
+  font-family: 'Xanh Mono', monospace;
+}
+a:link{
+  text-decoration: none;
+  color:black;
+}
+a:hover, a:active, a:visited{
+  color:white;
+  background-color: black;
+}
+
+
+
+.topbar{
+  position: fixed;
+  top:0;
+  left:0;
+  display:inline-block;
+  z-index:999;
+}
+.topbar > svg{
+  display:inline-block;
+  width: 14vw;;
+  padding-top: 1vh;
+}
+#navbar{
+  z-index:998;
+  display: none;
+  order:1;
+  /* flex-basis: 14%; */
+  min-width: 14%;
+  /* position:absolute; */
+  padding-top:20%;
+  background-color: rgb(255, 214, 253)
+  /* background: rgb(255,255,255); */
+  /* background: linear-gradient(90deg, rgba(255,255,255,1) 60%, rgba(254,254,254,0) 100%); */
+  height:100vh;
+  overflow: scroll;
+}
+nav > ul.menu {
+  list-style-type: none;
+  display: grid;
+  grid-row: auto;
+  padding-right: 0%;
+}
+
+#stroke{
+ fill: rgb(199, 135, 255);
+}
+#stroke:hover{
+  fill: rgb(200, 255, 43)
+}
+#altstroke{
+  fill: rgb(0, 26, 255)
+}
+#altstroke:hover{
+  fill: rgb(200, 255, 43)
+}
+
+.content{
+    order:2;
+    /* flex-basis: 75%; */
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+}
+
+.informationbox {
+  padding-left: 20%;
+  order:1;
+  flex-basis: 20vh;
+  /* width: 100%; */
+  /* line-height: 95%; */
+  background: rgb(255,255,255);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 60%, rgba(254,254,254,0) 100%);
+}
+.maintextbox{
+  order:2;
+  /* font-size: 4vw; */
+  flex-basis: 80vh;
+  overflow: scroll;
+  /* height: 100vh; */
+  padding-top: 10%;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.maintextbox div:last-of-type{
+  margin-bottom:30vh;
+}
+.lyricsbox{
+  display: none;
+  font-family: 'Miriam Libre', sans-serif;
+  text-align: left;
+  /* font-size: 4vw; */
+  padding-left: 10%;
+  height: 30vh;
+  overflow: scroll;
+}
+
+.subtitle {
+  font-family: 'Xanh Mono', monospace;
+  text-align: right;
+  font-size: 10vw;
+ }
+iframe{
+  display: block;
+  width: 100%;
+  height: 30vh;
+}
