@@ -31,10 +31,10 @@ a:link{
   text-decoration: none;
   color:black;
 }
-a:hover, a:active, a:visited{
+/* a:hover, a:active, a:visited{
   color:white;
   background-color: black;
-}
+} */
 
 .topbar{
   display: none;
@@ -105,13 +105,18 @@ nav > ul.menu {
   flex-basis: 80vh;
   overflow: scroll;
   /* height: 100vh; */
+  /* padding-bottom: 10%; */
   padding-top: 10%;
   padding-left: 1vw;
   padding-right: 1vw;
 }
-.maintextbox div:last-of-type{
-  margin-bottom:30vh;
+.italics{
+  font-family: 'Xanh Mono', monospace;
+  font-style: italic;
 }
+/* .maintextbox div:last-of-type{
+  margin-bottom:30vh;
+} */
 .lyricsbox{
   display: none;
   font-family: 'Miriam Libre', sans-serif;
