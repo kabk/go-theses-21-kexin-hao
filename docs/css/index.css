@@ -1,7 +1,14 @@
+html{
+  /* width:600px; */
+  /* height: 100vh; */
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
 body{
   background-image: url("../images/bgbg.jpg");
   background-size: cover;
-  /* background-repeat: no-repeat; */
+  background-repeat: no-repeat;
 }
 .stroke{
  fill: rgb(199, 135, 255);
