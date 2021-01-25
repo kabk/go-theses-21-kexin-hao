@@ -25,13 +25,13 @@
 }
 .bigfoot-footnote__button:hover, .bigfoot-footnote__button:focus {
   outline: none;
-  background-color: rgba(110, 110, 110, 0.5);
+  background-color: rgb(253, 139, 255);
 }
 .bigfoot-footnote__button:active {
-  background-color: rgba(110, 110, 110, 0.5);
+  background-color: rgb(253, 139, 255);
 }
 .bigfoot-footnote__button.is-active {
-  background-color: #6e6e6e;
+  background-color: rgb(253, 139, 255);
   -webkit-transition-delay: 0.1s;
           transition-delay: 0.1s;
 }
@@ -56,6 +56,7 @@
   display: inline-block;
   position: relative;
   text-indent: 0;
+  font-size: 0.6rem;
 }
 
 @media not print {
