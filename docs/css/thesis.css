@@ -67,13 +67,10 @@ a:link{
 }
 nav > ul.menu {
   list-style-type: none;
-  display: grid;
-  grid-row: auto;
-  padding-right: 0%;
 }
-nav > ul.menu > div{
+/* nav > ul.menu > div{
   padding-top: 30%;
-}
+} */
 
 #stroke{
  fill: black;
@@ -111,6 +108,7 @@ nav > ul.menu > div{
   /* height: 100vh; */
   /* padding-bottom: 10%; */
   padding-top: 10%;
+  padding-bottom: 20%;
   padding-left: 2%;
   padding-right: 2%;
 }
