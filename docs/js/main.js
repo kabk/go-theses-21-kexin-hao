@@ -30,6 +30,9 @@ $(document).ready(function(){
     $("#bibliography").click(function(){
       location.href = "b.html";
     });
+    $("#home").click(function(){
+      location.href = "../index.html";
+    });
   });
   $('.lyricsreveal').click(function(){
       $('#lyrics' + $(this).attr('id')).toggle();

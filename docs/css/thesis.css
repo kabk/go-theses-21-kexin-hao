@@ -59,8 +59,8 @@ ul.menu{
   /* overflow: scroll; */
 }
 
-#stroke{
- fill: black;
+.cls-1{
+  fill: rgb(253, 139, 255);
 }
 #stroke:hover, #stroke:visited, #stroke:active{
   fill: rgb(253, 139, 255);
@@ -140,6 +140,10 @@ img{
 .lyricsbox{
 
 }
+
+
+
+
 
 @media only screen and (max-width: 800px) {
   html{
